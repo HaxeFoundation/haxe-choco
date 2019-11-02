@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>haxe</id>
-        <version>3.4.7</version>
+        <version>4.0.0</version>
         <title>Haxe</title>
         <authors>Haxe Foundation</authors>
         <owners>Haxe Foundation</owners>
@@ -22,7 +22,7 @@ This package will install haxe and haxelib. After installation, you should run `
         <releaseNotes>https://github.com/HaxeFoundation/haxe/blob/master/extra/CHANGES.txt</releaseNotes>
         <tags>haxe programming development foss cross-platform</tags>
         <dependencies>
-            <dependency id="neko" version="2.1.0" />
+            <dependency id="neko" version="2.3.0" />
         </dependencies>
     </metadata>
     <files>
