@@ -4,8 +4,8 @@ Install-ChocolateyZipPackage `
     -PackageName 'haxe' `
     -UnzipLocation "$packDir" `
     -Url "$packDir\haxe-*-win.zip" `
-    -Checksum 'aae6667d94ff45603df0757bea0762c871985f66e5d4755a039b7a4efbf4d70d' `
+    -Checksum '72c6015616bfec77c74b6402318b5cca667ef0010077d7db5b0210fa529ca7eb' `
     -ChecksumType 'sha256' `
     -Url64bit "$packDir\haxe-*-win64.zip" `
-    -Checksum64 '80cff2d8fbfd46a5be79413411554eea4de81f5c3dbfe780546f59e12f536c24' `
+    -Checksum64 '93130ae2b1083efbcd9b8911afe2ba00d5af995f016149fd7ec629fa439c6120' `
     -ChecksumType64 'sha256'
