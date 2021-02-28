@@ -3,9 +3,9 @@ $packDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 Install-ChocolateyZipPackage `
     -PackageName 'haxe' `
     -UnzipLocation "$packDir" `
-    -Url "$packDir\haxe-4.2.0-win.zip" `
-    -Checksum 'a797243e081e98eace34113292b0b199e5f738bfed284c07b417f0b89b09b72e' `
+    -Url "$packDir\haxe-4.2.1-win.zip" `
+    -Checksum '5987dd1b11823a4754f3cc638ebd0febbc7d39c4372f610cd16dc5f56ec9d215' `
     -ChecksumType 'sha256' `
-    -Url64bit "$packDir\haxe-4.2.0-win64.zip" `
-    -Checksum64 '83be481d03892562155ed77c4f0f2ac30f34683cb0b55b57765ef90fc1d623ee' `
+    -Url64bit "$packDir\haxe-4.2.1-win64.zip" `
+    -Checksum64 '68caf3d86f6e707a0f0a655a9bc367a8489233f08daafb90945d2b195090f307' `
     -ChecksumType64 'sha256'
