@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>haxe</id>
-        <version>4.2.1</version>
+        <version>4.2.2</version>
         <title>Haxe</title>
         <authors>Haxe Foundation</authors>
         <owners>Haxe Foundation</owners>
