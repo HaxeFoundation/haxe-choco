@@ -1,3 +1,4 @@
 *.zip
 *.nupkg
 LICENSE.txt
+out
