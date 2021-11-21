@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>haxe</id>
-        <version>4.2.4</version>
+        <version>::VERSION::</version>
         <title>Haxe</title>
         <authors>Haxe Foundation</authors>
         <owners>Haxe Foundation</owners>
@@ -17,7 +17,7 @@
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <summary>Haxe is an open source toolkit based on a modern, high level, strictly typed programming language, a cross-compiler, a complete cross-platform standard library and ways to access each platform's native capabilities.</summary>
         <description>Haxe is an open source toolkit based on a modern, high level, strictly typed programming language, a cross-compiler, a complete cross-platform standard library and ways to access each platform's native capabilities.
- 
+
 This package will install haxe and haxelib. After installation, you should run `haxelib setup %HAXELIB_PATH%;`, where `%HAXELIBPATH%` is the haxelib repository folder for placing third-party libraries. The folder should be created manually before running the command.</description>
         <releaseNotes>https://github.com/HaxeFoundation/haxe/blob/master/extra/CHANGES.txt</releaseNotes>
         <tags>haxe programming development foss cross-platform</tags>
@@ -26,8 +26,8 @@ This package will install haxe and haxelib. After installation, you should run `
         </dependencies>
     </metadata>
     <files>
-        <file src="haxe-*-win.zip" />
-        <file src="haxe-*-win64.zip" />
+        <file src="haxe-::VERSION::-win.zip" />
+        <file src="haxe-::VERSION::-win64.zip" />
         <file src="LICENSE.txt" />
         <file src="VERIFICATION.txt" />
         <file src="chocolateyInstall.ps1" />
