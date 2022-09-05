@@ -22,6 +22,15 @@ Function Clear-Output {
 	}
 }
 
+Function Download-Binaries {
+	If ( ! (Test-Path -Path $file32 -PathType Leaf) ) {
+		Invoke-WebRequest -Uri "https://github.com/HaxeFoundation/haxe/releases/download/$version/haxe-$version-win.zip" -OutFile $file32
+	}
+	If ( ! (Test-Path -Path $file64 -PathType Leaf) ) {
+		Invoke-WebRequest -Uri "https://github.com/HaxeFoundation/haxe/releases/download/$version/haxe-$version-win64.zip" -OutFile $file64
+	}
+}
+
 Function Copy-File {
 	param ([string] $file)
 	Write-Host "Copying $file"
@@ -77,6 +86,7 @@ Function Copy-Remaining {
 	}
 }
 
+Download-Binaries
 Clear-Output
 Copy-Binaries
 Write-InstallScript
