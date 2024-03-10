@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>haxe</id>
-        <version>4.2.5</version>
+        <version>::version::</version>
         <title>Haxe</title>
         <authors>Haxe Foundation</authors>
         <owners>Haxe Foundation</owners>
@@ -26,8 +26,8 @@ This package will install haxe and haxelib. After installation, you should run `
         </dependencies>
     </metadata>
     <files>
-        <file src="haxe-4.2.5-win.zip" />
-        <file src="haxe-4.2.5-win64.zip" />
+        <file src="haxe-::version::-win.zip" />
+        <file src="haxe-::version::-win64.zip" />
         <file src="LICENSE.txt" />
         <file src="VERIFICATION.txt" />
         <file src="chocolateyInstall.ps1" />

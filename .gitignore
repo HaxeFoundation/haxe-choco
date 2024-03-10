@@ -1,4 +1,5 @@
 *.zip
 *.nupkg
-LICENSE.txt
-out
+*.n
+.haxelib
+.tmp-earthly-out
