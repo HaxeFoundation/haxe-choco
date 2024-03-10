@@ -1,7 +1,7 @@
 # set variables
-$version = "4.3.1"
-$checksum32 = "260d0afd6e5a5ded14761ec8b23ecab7deaea552d7b6230bfc19411fdf248780"
-$checksum64 = "8f77bf1dc3fae88b3174e311c60e69ab25c02093a0801bd3e49b28609f465e1e"
+$version = "4.3.2"
+$checksum32 = "6b5dbb697d2f8f0c7315773bde6e99ce78b83e7127f327faf4bb069ae3e0766d"
+$checksum64 = "194276aa37e19945e7d993145b2c9442777f8047e78038147a684d1fb7e8e9df"
 
 $packDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
